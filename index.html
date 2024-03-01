@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio websites</title>
+
+    <!-- boxicon CDN link(usage as a font) -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Main CSS link -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo"> My Portfolio</a>
+        <nav class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li style="align-items: center;justify-content: center;"><button class="mb-4" onclick="myFunction()">
+                <i class="bx bx-moon"></i>
+            </button></li>
+            
+        </nav>
+    </header>
+
+    <!-- Home section -->
+    <section class="home" id="home">
+        <div class="social">
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href=""><i class='bx bxl-instagram'></i></a>
+            <a href=""><i class='bx bxl-whatsapp'></i></a>
+        </div>
+        <div class="home-text">
+            <span>Hello,I'm</span>
+            <h1>Gayathri</h1>
+            <h4>Frontend Developer</h4>
+            <p>
+                B. Tech. Graduate from Jntua College of Engineering Kalikiri with hands on knowledge in Python. HTML
+                SQL, MS Office, Internet. Word, Power point, Excel. During these four years i have learned the basics of
+                web development and database management system. I am always up to learn something new. Apart from that I
+                have a basic interest in computer software and would like to gain more knowledge in various aspects of
+                IT through internships.
+            </p>
+
+            <a class="btn" href="#">Contact Me</a>
+
+        </div>
+        <div class="home-img">
+            <img src="images/gaye5.jpg" alt="" />
+        </div>
+        <!-- <span class="home-imgHover"></span> -->
+    </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="images/gaye5.jpg" alt="" />
+            </div>
+            <div class="about-text">
+                <p>
+                    I am Gayathri belongs to kadapa,Andhra pradesh. I have done my 10th in vengamambha high school
+                    kadapa,AP with 9.5CGPA and I have done my 12th in vagdevi jr college kadapa,AP with 10CGPA.Recently,
+                    I have completed my bachelore of technology in the stream of Civil Engineering from JNTUA College of
+                    Engineering kalikiri with 76%. Then coming to my technical skills. I am fimilar with python,basics
+                    of SQL. Then coming to my project details. My major project is prediction of compression strength of
+                    concrete by using machine learning. My minor project are water quality analysis and industrial
+                    training. Then coming to my strength I am quick learner,confident and clarity of thought.
+
+                </p>
+                <div class="information">
+                    <div class="info-box">
+                        <i class='bx bxs-user'></i>
+                        <span>Gayathri Mudumala</span>
+                    </div>
+                    <div class="info-box">
+                        <i class='bx bxs-phone'></i>
+                        <span>+91 8688841847</span>
+                    </div>
+                    <div class="info-box">
+                        <i class='bx bxs-envelope'></i>
+                        <span>mudumalagayathri@gmail.com</span>
+                    </div>
+                </div>
+                <!-- <a href="Gayathri resume.pdf" class="btn">Resume</a> -->
+                <!-- <input type="button" value="Download!">
+                <button>Download!</button> -->
+                <a href="./images/gayathri_resume1.pdf" download="gayathri_resume" class="btn">Download Resume</a>
+                <!-- <a href="./gayathri_resume.pdf" download="proposed_file_name">Download</a> -->
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span>My Skills</span>
+        </div>
+        <div class="skills-content">
+            <div>
+                <div class="bars">
+                    <h4>HTML</h4>
+                    <span>95%</span>
+                    <div class="light-bar"></div>
+                    <div class="percentage-bar html-bar"></div>
+                </div>
+                <div class="bars">
+                    <h4>CSS</h4>
+                    <span>75%</span>
+                    <div class="light-bar"></div>
+                    <div class="percentage-bar css-bar"></div>
+                </div>
+                <div class="bars">
+                    <h4>SQL</h4>
+                    <span>90%</span>
+                    <div class="light-bar"></div>
+                    <div class="percentage-bar sql-bar"></div>
+                </div>
+                <div class="bars">
+                    <h4>Python</h4>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percentage-bar python-bar"></div>
+                </div>
+            </div>
+
+            <div class="skills-img">
+                <img src="images/webdev.jpg" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Services</h2>
+            <span>Our Services</span>
+        </div>
+        <div class="services-content">
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <a href="https://www.w3schools.com/whatis/" target="_blank">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class="bx bx-server"></i>
+                <h3>Backend Development</h3>
+                <a href="https://www.geeksforgeeks.org/backend-development/" target="_blank">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class="bx bx-brush"></i>
+                <h3>UI/UX Design</h3>
+                <a href="https://bootcamp.uxdesign.cc/understanding-the-basics-of-ui-ux-design-a-beginners-guide-11752310317a"
+                    target="_blank">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-wordpress'></i>
+                <h3>Wordpress Development</h3>
+                <a href="https://wordpress.com/learn/" target="_blank">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <h2>Portfolio</h2>
+            <span>Our Recent Work</span>
+        </div>
+        <div class="portfolio-content">
+            <div class="portfolio-img">
+                <img src="images/blog-2.jpg" alt="" />
+            </div>
+            <div class="portfolio-img">
+                <img src="images/blog-3.jpg" alt="" />
+            </div>
+            <div class="portfolio-img">
+                <img src="images/blog-4.jpg" alt="" />
+            </div>
+            <div class="portfolio-img">
+                <img src="images/blog-5.jpg" alt="" />
+            </div>
+            <div class="portfolio-img">
+                <img src="images/blog-6.jpg" alt="" />
+            </div>
+            <div class="portfolio-img">
+                <img src="images/blog-7.jpg" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>Connect with us</span>
+        </div>
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="You Name" />
+                <input type="text" placeholder="You Email" />
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+                <button class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <h2>Coding Home</h2>
+        <div class="footer-social">
+            <a href="https://www.instagram.com/gayee_reddy.1423/" target="_blank"><i class="bx bxl-instagram"></i></a>
+            <a href="https:www.facebook.com" target="_blank"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/mudumala-gayathri/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            <a href="https:www.youtube.com" target="_blank"><i class="bx bxl-youtube"></i></a>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <p>All Rights Reserved</p>
+    </div>
+    <script>
+        function myFunction() {
+            document.body.classList.toggle("night-mode");
+            console.log(document.body,"gayathri",document.body.classList)
+        }
+    </script>
+
+</body>
+
+</html>
